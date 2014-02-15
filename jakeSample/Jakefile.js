@@ -53,7 +53,7 @@ task('asyncTask', {async: true}, function () {
   setTimeout(function(){
         console.log('done with async task')
         complete();
-  }, 1000);
+  }, 3000);
 });
 
 // namespaces: use namespace:task
@@ -90,6 +90,6 @@ namespace('sample', function () {
 // Cleanup - on complete.  Runs when jake script is complete
 
 jake.addListener('complete', function () {
-        console.log('Complete.');
+    console.log('Script Cleanup');
 });
 
