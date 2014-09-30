@@ -48,29 +48,24 @@
     if (!_webRefModel)
     {
         _webRefModel = [[MSWebReferenceModel alloc] init];
-        [_webRefModel addWebReferenceNamed:@"E2E Blog"
-                       withURLString:@"http://blogs.msdn.com/b/visualstudioalm/archive/2012/10/19/building-ios-apps-in-tfs.aspx"];
         
-        [_webRefModel addWebReferenceNamed:@"git-tf"
-                             withURLString:@"http://gittf.codeplex.com"];
+        [_webRefModel addWebReferenceNamed:@"VisualStudio.com"
+                             withURLString:@"http://www.visualstudio.com/"];
 
-        [_webRefModel addWebReferenceNamed:@"Jenkins"
-                             withURLString:@"http://jenkins-ci.org"];
+        [_webRefModel addWebReferenceNamed:@"XcodeBuild Man"
+                             withURLString:@"https://developer.apple.com/library/mac/documentation/Darwin/Reference/ManPages/man1/xcodebuild.1.html"];
 
-        [_webRefModel addWebReferenceNamed:@"TFS Plugin"
-                             withURLString:@"https://wiki.jenkins-ci.org/display/JENKINS/Team+Foundation+Server+Plugin"];
+        [_webRefModel addWebReferenceNamed:@"node.js"
+                             withURLString:@"http://nodejs.org"];
         
-        [_webRefModel addWebReferenceNamed:@"TEE CLC"
-                       withURLString:@"http://www.microsoft.com/en-us/download/details.aspx?id=30661"];
-        
-        [_webRefModel addWebReferenceNamed:@"This Sample"
-                             withURLString:@"http://tfsiosbuild.codeplex.com"];
+        [_webRefModel addWebReferenceNamed:@"bharry"
+                       withURLString:@"http://blogs.msdn.com/b/bharry"];
     }
 }
 
 - (void)initialize
 {
-    NSLog(@"_webRefModel.count: %d", _webRefModel.count);
+    NSLog(@"_webRefModel.count: %ld", (long)_webRefModel.count);
     if (_webRefModel.count > 0) {
         MSWebReference *webRef = [_webRefModel webReferenceAtIndex:0];
         self.detailViewController.detailItem = webRef;
@@ -133,7 +128,7 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    NSLog(@"selected: %d", [indexPath row]);
+    NSLog(@"selected: %ld", (long)[indexPath row]);
     _webRefModel.selectedIndex = indexPath.row;
     MSWebReference *webRef = [_webRefModel webReferenceAtIndex:indexPath.row];
     NSLog(@"selected: %@", [webRef description]);
