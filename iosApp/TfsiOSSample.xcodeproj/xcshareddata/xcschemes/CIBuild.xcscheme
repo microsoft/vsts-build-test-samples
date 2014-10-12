@@ -33,7 +33,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "93729ED9162DA225001D9BA6"
-               BuildableName = "TfsiOSSampleTests.octest"
+               BuildableName = "TfsiOSSampleTests.xctest"
                BlueprintName = "TfsiOSSampleTests"
                ReferencedContainer = "container:TfsiOSSample.xcodeproj">
             </BuildableReference>
