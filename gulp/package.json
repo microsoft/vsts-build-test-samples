@@ -1,0 +1,22 @@
+{
+  "name": "gulp-sample",
+  "version": "1.0.0",
+  "description": "sample gulp file for testing",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Microsoft/vso-agent-samples"
+  },
+  "author": "Microsoft Corporation",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Microsoft/vso-agent-samples/issues"
+  },
+  "homepage": "https://github.com/Microsoft/vso-agent-samples",
+  "devDependencies": {
+    "gulp": "^3.8.11"
+  }
+}
