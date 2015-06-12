@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.22310.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureWebApplication2", "AzureWebApplication2\AzureWebApplication2.csproj", "{F8F48E86-5312-4CB6-ABB9-0FD4619A00D2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{AA7F7D7C-36AF-4E60-A4D6-79FA9D4FE0C3}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureWebsitePublishModule.psm1 = PublishScripts\AzureWebsitePublishModule.psm1
+		PublishScripts\Publish-WebApplicationWebsite.ps1 = PublishScripts\Publish-WebApplicationWebsite.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{110413C8-7619-4CD5-9BFE-8BE61FD1ADB7}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\JeyouWebApplication2-WAWS-dev.json = PublishScripts\Configurations\AzureWebApplication2-WAWS-dev.json
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{ADFB78EF-5AC5-4A1D-A5D6-E2E7BC2F0A0A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8F48E86-5312-4CB6-ABB9-0FD4619A00D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8F48E86-5312-4CB6-ABB9-0FD4619A00D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8F48E86-5312-4CB6-ABB9-0FD4619A00D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8F48E86-5312-4CB6-ABB9-0FD4619A00D2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{110413C8-7619-4CD5-9BFE-8BE61FD1ADB7} = {AA7F7D7C-36AF-4E60-A4D6-79FA9D4FE0C3}
+	EndGlobalSection
+EndGlobal
