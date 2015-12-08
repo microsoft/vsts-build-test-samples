@@ -3,13 +3,13 @@
   <Role name="WebRole1">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=yaananth;AccountKey=UHQEwkDqD/ZtInhj0XXvhnsFmOBQ3rPJJy2lvtrPj7ke1+r3mudSjt8paeFbTcvhu4E65nyNZHBvcfu7aoJjKw==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=jeyouazuretest;AccountKey=HbzSk1AXaqo8HzhfZM8ngC/0vK1Y3r9jtFTeyRvPWN+G1oBRV/wyUXyocSht6UrSzA6ZgtbWGX/er3zoOOFhfA==" />
     </ConfigurationSettings>
   </Role>
   <Role name="WorkerRole1">
     <Instances count="1" />
     <ConfigurationSettings>
-      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=yaananth;AccountKey=UHQEwkDqD/ZtInhj0XXvhnsFmOBQ3rPJJy2lvtrPj7ke1+r3mudSjt8paeFbTcvhu4E65nyNZHBvcfu7aoJjKw==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=jeyouazuretest;AccountKey=HbzSk1AXaqo8HzhfZM8ngC/0vK1Y3r9jtFTeyRvPWN+G1oBRV/wyUXyocSht6UrSzA6ZgtbWGX/er3zoOOFhfA==" />
     </ConfigurationSettings>
   </Role>
 </ServiceConfiguration>
